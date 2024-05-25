@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f4649b53.css",
+    "main.js": "/static/js/main.172b3432.js",
+    "static/media/img_about3.png": "/static/media/img_about3.9f551e0f3687576e868e.png",
+    "static/media/Banner_Pic.png": "/static/media/Banner_Pic.e04ff3c2c73b5f174d23.png",
+    "static/media/img_about1.png": "/static/media/img_about1.ba2fcebf34c7bffcac74.png",
+    "static/media/img_about2.png": "/static/media/img_about2.be69a8b95c494570f4b7.png",
+    "static/media/Learn.png": "/static/media/Learn.8019a4ec26dcdc05107d.png",
+    "static/media/Interface.png": "/static/media/Interface.bf413c81cd89fcdbd205.png",
+    "static/media/Image3.png": "/static/media/Image3.503bbcb85ef3d767adaa.png",
+    "static/media/Image.png": "/static/media/Image.84c42f6fcfe056c16673.png",
+    "static/media/map.png": "/static/media/map.0215f5ae979a7a859c6e.png",
+    "static/media/Image2.png": "/static/media/Image2.978aac9cb7f50b0d2c68.png",
+    "static/media/Figma.png": "/static/media/Figma.8cc494f7b757bbca9935.png",
+    "static/media/circleleft.png": "/static/media/circleleft.fd2aca5e58837141990f.png",
+    "static/media/circleright.png": "/static/media/circleright.1569125fdcc06b9d73bc.png",
+    "static/media/tutor2.png": "/static/media/tutor2.bbaa95dfd37e20207b0f.png",
+    "static/media/tutor3.png": "/static/media/tutor3.70c57a27aa94f702f8c3.png",
+    "static/media/tutor4.png": "/static/media/tutor4.d0a3dbf986a60fb974be.png",
+    "static/media/circleimg.png": "/static/media/circleimg.4626f31a96ae85a171eb.png",
+    "index.html": "/index.html",
+    "main.f4649b53.css.map": "/static/css/main.f4649b53.css.map",
+    "main.172b3432.js.map": "/static/js/main.172b3432.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4649b53.css",
+    "static/js/main.172b3432.js"
+  ]
+}
