@@ -56,7 +56,7 @@ const Banner = () => {
                         <img className = "circleright" src={circleright} width= "414px" height= "414px" alt="" />
                         <img className = "ellipse4" src={ellipse4} width= "14px" height= "14px" alt="" />
                         <div className = 'online_courses'><img className = "progress_circle" src={progress_circle} width= "80px" height= "80px" alt=""></img><p>5K+ <br /><span>Online Courses</span></p></div>
-                        <div className = 'online_education'><img className = "education" src={education} width= "48.96px" height= "48.96px" alt=""></img><p>2K+ <br /><span>Video Courses</span></p></div>
+                        <div className = 'online_education'><img className = "education" src={education} width= "47px" height= "47x" alt=""></img><p>2K+ <br /><span>Video Courses</span></p></div>
                         <div className = 'online_tutor'><img className = "tutor" src={tutor} width= "48.96px" height= "48.96px" alt=""></img><p>Tutors<br /><span>250+</span></p></div>
                     </div>
                 </div>

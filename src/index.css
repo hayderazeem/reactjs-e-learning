@@ -4,22 +4,23 @@
   box-sizing: border-box;
 }
 
-
 .page_width {
   max-width: 1250px;
   margin: auto;
   padding: 0px 15px;
 }
 
+/* Remove default list styles */
 li {
   list-style: none;
 }
 
+/* Remove default link underline */
 a {
   text-decoration: none;
-
 }
 
+/* Header styles */
 header {
   display: flex;
   justify-content: space-between;
@@ -27,11 +28,19 @@ header {
   padding: 15px 0px;
 }
 
+/* Navigation links styles */
 header .nav_links ul li {
   display: inline-block;
   padding: 10px 15px;
 }
 
+/* Apply underline effect on hover for specific links */
+header .nav_links ul li:not(.btn_create_account) a:hover:not(.active) {
+  color: #20B486;
+  text-decoration: underline;
+}
+
+/* Styling for navigation links */
 header .nav_links ul li a {
   font-family: Roboto;
   font-size: 16px;
@@ -41,12 +50,12 @@ header .nav_links ul li a {
   color: #101828;
 }
 
+/* Styling for "Create Free Account" button */
 header .nav_links ul li.btn_create_account {
   background: #20B486;
   border-radius: 8px;
-  border: 1px ;
-  padding: 10px 16px 10px 16px;
-
+  border: 1px;
+  padding: 10px 16px;
 }
 
 header .nav_links ul li.btn_create_account a {
@@ -55,22 +64,20 @@ header .nav_links ul li.btn_create_account a {
   font-weight: 600;
   line-height: 20px;
   text-align: left;
-  
   color: #fff;
 }
 
-
-header .div_explore{
- display: flex;
- align-items: center;
-position: right;
-
+/* Styling for the "Explore" section */
+header .div_explore {
+  display: flex;
+  align-items: center;
 }
+
 header .div_explore .input_explore {
-padding: 10px 100px 10px 45px;
- border: 1px solid #D0D5DD;
+  padding: 10px 100px 10px 45px;
+  border: 1px solid #D0D5DD;
   border-radius: 8px;
- box-shadow: 0px 1px 2px 0px #1018280D;
+  box-shadow: 0px 1px 2px 0px #1018280D;
   background-image: url("/src/assets/search.png");
   background-repeat: no-repeat;
   background-position: 10px 10px;
@@ -78,23 +85,20 @@ padding: 10px 100px 10px 45px;
 }
 
 header .div_explore .btn_explore {
-padding: 6px 24px 6px 15px;
-/* align-content: left; */
-border-radius: 8px;
-background: #F2FFFB;
-color:#20B486;
-border: none;
-font-family: Inter;
-font-size: 12px;
-font-weight: 600;
-line-height: 20px;
-position: absolute;
-left :35.6%;
-
-background-image: url("/src/assets/arrow.png");
+  padding: 6px 24px 6px 15px;
+  border-radius: 8px;
+  background: #F2FFFB;
+  color: #20B486;
+  border: none;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  position: absolute;
+  left: 34.7%;
+  background-image: url("/src/assets/arrow.png");
   background-repeat: no-repeat;
   background-position: 60px 15px;
-
   background-size: 10px 5px;
   cursor: pointer;
 }
@@ -748,7 +752,7 @@ text-align: left;
       .programs_inner .programs_card_one  .card_profile {
         display: flex;
         align-items: center;
-        gap:15px
+        gap:10px
       }
 
       .programs_inner .programs_card_one  .card_profile  p {

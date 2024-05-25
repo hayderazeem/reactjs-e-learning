@@ -37,7 +37,7 @@ const Services = () => {
                     <div className='services_card_two'>
                         <div className='card_heading_two'>
                         <img className = "interaction" src={user_interface} width= "48px" height= "48px" alt=""></img><p>User Interface Design</p>
-                        </div><br /><br />
+                        </div><br />
                         <p className='para'>User Interface Design courses that cover the most recent  trends</p>
                         <br />
                         <div className='div_learn'>

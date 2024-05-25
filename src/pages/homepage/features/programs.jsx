@@ -136,7 +136,7 @@ const Programs = () => {
               <FaStar color="#FF9B26" /> <span>(125)</span>
             </div>
             <br />
-            <br />
+            {/* <br /> */}
             <div className="card_profile">
               <img
                 className="img_Avatar"
